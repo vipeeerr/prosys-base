@@ -18,13 +18,13 @@ Paquetes npm incluidos:
 
 ## Comandos de instalación y configuración inicial
 
-- ```**composer install**```
-- ```**npm install**```
-- ```**npm run dev**```
+- ```composer install```
+- ```npm install```
+- ```npm run dev```
 - **Copiar archivo .env.example a .env en / y añadir los valores de configuración faltantes**
 - **Copiar .htaccess.example a .htaccess en la carpeta /public**
 - **Revisar migraciones y seeders**
-- ```**php artisan migrate:fresh --seed**```
+- ```php artisan migrate:fresh --seed```
 
 
 ## Información sobre paquetes añadidos
