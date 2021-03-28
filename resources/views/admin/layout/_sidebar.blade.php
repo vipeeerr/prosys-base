@@ -1,7 +1,7 @@
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
-        <div class="sidebar-brand-text mx-1">PROSYS - BASE</div>
+        <div class="sidebar-brand-text mx-1">LARAVEL - BASE</div>
     </a>
 
     <hr class="sidebar-divider my-0">

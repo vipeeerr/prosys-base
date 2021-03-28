@@ -11,12 +11,11 @@ const mix = require('laravel-mix');
  |
  */
 
- mix.setPublicPath('public');
+mix.setPublicPath('public');
 
-mix.js('resources/js/app.js', 'public/js')
-    .js('resources/js/admin/main.js', 'public/js/admin/main.js')
-    .sass('resources/sass/app.scss', 'public/css')
+mix.js('resources/js/admin/main.js', 'public/js/admin/main.js')
     .sass('resources/sass/admin/main.scss', 'public/css/admin/main.css')
-    .sourceMaps();
+    .copy('resources/images/', 'public/images')
+    .copy('resources/icons/', 'public/icons')
 
 mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', 'public/css/webfonts');

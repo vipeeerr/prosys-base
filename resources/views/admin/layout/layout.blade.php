@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>PROSYS - BASE LV8</title>
+    <title>LARAVEL - BASE</title>
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
     <link rel="stylesheet" href="{{ asset('css/admin/main.css') }}">
 
@@ -95,8 +95,6 @@
     </a>
     @include('sweetalert::alert')
     <script src="{{ asset('js/admin/main.js') }}"></script>
-    {{-- <script src="{{ asset('vendor/datatables/buttons.server-side.js') }}"></script> --}}
-    <script src=" {{ asset('js/sb-admin-2.min.js')}}"></script>
     @yield('javascript')
 
 </body>
